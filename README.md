@@ -25,7 +25,7 @@ Aby zbudować obraz dockerowy należy w głównej ścieżce projektu wykonać po
 * kubernetes (domyślna konfiguracja ćwiczenia zakłada wdrożenie na środowisku lokalnym).
 * Obraz dockerowy aplikacji (zbudowany lokalnie lub automatycznie pobrany z repozytorium).
 <br>
-Uruchomienie aplikacji na kubernetesie na podstawie pliku konfiguracyjnego poleceniem `$ kubectl apply -f deployment.yaml`
+Uruchomienie aplikacji na kubernetesie na podstawie pliku konfiguracyjnego poleceniem `kubectl apply -f deployment.yaml`
 
 #### Weryfikacja
 Aplikacja udostępniona jest pod adresem `http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config` na porcie 8080. W wypadku uruchamiania aplikacji na innym porcie należy nadpisać konfigurację projektu.
