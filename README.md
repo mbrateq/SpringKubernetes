@@ -17,7 +17,8 @@ Aby zbudować aplikacje należy w głównej ścieżce projektu wykonać poleceni
 * docker desktop
 * Zbudowana wersja aplikacji w lokalizacji _./target/_
 <br>
-Aby zbudować obraz dockerowy należy w głównej ścieżce projektu wykonać polecenie `docker build -t mbakmf/technologie-kontenerowe`.
+Aby zbudować obraz dockerowy należy w głównej ścieżce projektu wykonać polecenie `docker build -t mbakmf/technologie-kontenerowe`. 
+
 #### 3. Instrukcja wdrożenia aplikacji na kubernetesa
 #### Wymagania:
 * docker desktop
